@@ -1,0 +1,38 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp4
+{ 
+    class area
+    {
+        public area(int A)
+        {
+            int result = A * A;
+            Console.WriteLine("the Area of squre is = {0}",result);
+        }
+
+        public area(int A ,int B)
+        {
+            int result = A *B ;
+            Console.WriteLine("the Area of triangle ={0}", result);
+        }
+    }
+    internal class Program
+      { 
+      
+         
+        
+        static void Main(string[] args)
+        { 
+           area res = new area(10,4);
+            area res1 = new area(10);
+            Console.WriteLine("welcome sir ");
+          
+            Console.ReadLine();
+        }
+    }
+}
+

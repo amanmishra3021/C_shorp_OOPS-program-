@@ -1,0 +1,38 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace assing
+{
+
+    class assing 
+    {
+        public int a;
+        public int b;
+        public int add()
+        {
+            Console.WriteLine("Enter the first number");
+            this.a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the second number number");
+            this.b = int.Parse(Console.ReadLine());
+            int c = this.a + this.b;
+            return c;
+        }
+    }
+    class Program
+    { 
+  
+      static void Main(string[] args)
+        {
+
+            assing obj=new assing();
+            int p = obj.add();
+            Console.WriteLine(p);
+            Console.ReadLine();
+
+
+        }
+    }   
+}
